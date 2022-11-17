@@ -20,7 +20,6 @@ public class Solution {
             else if (target>nums[middle]){
                 low = middle+1; //target is less  than middle
 
-
              }
             if(target == nums[middle]){
                 System.out.println(target + " eksisterer i listen og ligger i index "+ middle);
